@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "autoprefixer.findExternalAutoprefixer": true,
+    "autoprefixer.formatOnSave": true,
+    "eslint.format.enable": true
+}
