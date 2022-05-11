@@ -1,6 +1,5 @@
 {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "autoprefixer.findExternalAutoprefixer": true,
-    "autoprefixer.formatOnSave": true,
-    "eslint.format.enable": true
+    "html.format.wrapAttributes": "auto"
 }

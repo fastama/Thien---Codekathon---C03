@@ -1,12 +1,29 @@
+:root {
+    --mau-trang: #F8F5F9;
+    --mau-tim-nhat: #F3E9FF;
+    --mau-tim-dam: #774AD8;
+    --mau-vang-dam: #F8C929;
+    --mau-vang-nhat: #FEEFB2;
+    --mau-vang-nau: #66490A;
+    --font-main: 'Roboto', sans-serif;;
+}
+/* màu trắng : #F8F5F9
+màu tím nhạt: #F3E9FF
+màu tím đậm: #774AD8
+màu vàng nhạt: #FEEFB2
+màu vàng đậm: #F8C929
+màu vàng nâu: #66490A */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #F3E9FF;
+    font-family: var(--font-main);
+    background-color: var(--mau-tim-nhat);
     box-sizing: border-box;
     margin: 0;
+    text-align: center;
 }
 header {
     text-align: center;
@@ -17,16 +34,17 @@ header img {
     height: 150px;
 }
 header h1 {
-    color: #774AD8;
+    color:var(--mau-tim-dam);
     font-size: 48px;
 }
 .main {
-    background-color: #774AD8;
-    color: #F8F5F9;
+    background-color: var(--mau-tim-dam);
+    color: var(--mau-trang);
     width: 720px;
     border-radius: 10px;
     margin:40px auto;
     padding: 20px;
+    text-align: left;
 }
 .describe p {
     padding-left: 18px;
@@ -34,34 +52,32 @@ header h1 {
     line-height: 30px;
 }
 p.highlight {
-    border-left: 5px solid #F8C929;
-    color: #F8C929;
+    border-left: 5px solid var(--mau-vang-dam);
+    color: var(--mau-vang-dam);
     padding-left: 12px;
 }
 .decolink {
-    background-color: #FEEFB2;
+    background-color: var(--mau-vang-nhat);
     border-radius: 4px;
     padding: 2px 4px;
-    color:#774AD8;
+    color:var(--mau-tim-dam);
     font-weight: 700;
     text-decoration: none;
 }
-.center {
-    margin-left: 50%;
-    transform: translate(-50%,0);
-}
+
 p.center {
     text-align: center;
     padding: 10px;
 }
 a.button {
     display: inline-block;
-    background-color: #F8C929;
+    background-color: var(--mau-vang-dam);
     border-radius: 10px;
     padding: 12px 24px;
     border: none;
     font-weight: bold;
     font-size: 16px;
-    color: #66490A;
+    color: var(--mau-vang-nau);
     text-decoration: none;
 }
+
