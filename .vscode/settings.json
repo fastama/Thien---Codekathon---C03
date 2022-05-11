@@ -1,5 +1,8 @@
 {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "html.format.wrapAttributes": "auto"
+    "html.format.wrapAttributes": "auto",
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    }
 }
