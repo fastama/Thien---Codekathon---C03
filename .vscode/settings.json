@@ -1,12 +1,18 @@
 {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "html.format.wrapAttributes": "auto",
-    "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "html.format.wrapLineLength": 0,
-    "editor.lineHeight": 24,
-    "prettier.tabWidth": 2
+  "editor.formatOnSaveMode": "file",
+  "html.format.wrapLineLength": 0,
+  "json.format.enable": true,
+  "javascript.format.enable": true,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "html.format.contentUnformatted": "",
+  "html.format.enable": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapAttributesIndentSize": null,
+  "html.format.endWithNewline": false,
+  "prettier.printWidth": 150
 }
-
